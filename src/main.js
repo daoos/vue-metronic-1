@@ -2,7 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 
-import App from './app'
+import App from './App'
 
 import Metronic from './index'
 

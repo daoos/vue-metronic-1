@@ -24,12 +24,12 @@ recursionRouters(routerConfig)
 
 var router = new VueRouter({
   routes: [
-    {path: '/', component: resolve => require(['@/docs/index'], resolve)},
-    {path: '/login', component: resolve => require(['@/docs/index'], resolve)},
-    {path: '/lock', component: resolve => require(['@/docs/lock'], resolve)},
+    {path: '/', component: resolve => require(['@/modules/index'], resolve)},
+    {path: '/login', component: resolve => require(['@/modules/index'], resolve)},
+    {path: '/lock', component: resolve => require(['@/modules/lock'], resolve)},
     {
       path: '/main',
-      component: resolve => require(['@/docs/main'], resolve),
+      component: resolve => require(['@/modules/main'], resolve),
       children: routers
     }
   ]

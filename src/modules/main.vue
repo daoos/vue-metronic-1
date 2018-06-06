@@ -2,7 +2,7 @@
   <layout></layout>
 </template>
 <script>
-  import Layout from '@/layouts/layout2'
+  import Layout from '@/layouts/layout'
 
   export default{
     components: {

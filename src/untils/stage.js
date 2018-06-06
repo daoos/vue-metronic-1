@@ -15,12 +15,12 @@ function getLogoData () {
   osCtx.fillRect(130, 20, 60, 60)
   osCtx.textAlign = 'center'
   osCtx.textBaseline = 'middle'
-  osCtx.font = '65px 微软雅黑,黑体 bold'
+  osCtx.font = '36px 微软雅黑,黑体 bold'
   osCtx.fillStyle = '#e01a0a'
-  osCtx.fillText('NIC', 416, this.osCanvas.height / 2)
-  osCtx.font = '40px 微软雅黑,黑体 bold'
+  osCtx.fillText('ADMIN', 416, this.osCanvas.height / 2)
+  osCtx.font = '49px 微软雅黑,黑体 bold'
   osCtx.fillStyle = '#f5f5ff'
-  osCtx.fillText('METRO', 280, this.osCanvas.height / 2)
+  osCtx.fillText('DAOOS     ', 280, this.osCanvas.height / 2)
   return osCtx.getImageData(0, 0, this.osCanvas.width, this.osCanvas.height)
 }
 
@@ -109,8 +109,8 @@ class Animate {
     osCtx.textBaseline = 'middle'
     osCtx.font = '100px 微软雅黑,黑体 bold'
     osCtx.fillStyle = '#f5f5ff'
-    osCtx.fillText('WELCOME', this.osCanvas.width / 2, this.osCanvas.height / 2 - 40)
-    osCtx.fillText('TO METRONIC', this.osCanvas.width / 2, this.osCanvas.height / 2 + 50)
+    osCtx.fillText('欢迎使用', this.osCanvas.width / 2, this.osCanvas.height / 2 - 40)
+    osCtx.fillText('DAOOS', this.osCanvas.width / 2, this.osCanvas.height / 2 + 50)
     var bigImageData = osCtx.getImageData(0, 0, this.osCanvas.width, this.osCanvas.height)
     dots = []
     for (var x = 0; x < bigImageData.width; x += 2) {
