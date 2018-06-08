@@ -7,7 +7,7 @@ const users = [
     password: '123456',
     name: '小张',
     post: 'CEO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar3.jpg',
+    avatar: '/static/img/layouts/layout/avatar3.jpg',
     type: 1
   },
   {
@@ -16,7 +16,7 @@ const users = [
     username: 'xiaowang',
     password: '123456',
     post: 'CTO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar1.jpg',
+    avatar: '/static/img/layouts/layout/avatar1.jpg',
     type: 1
   },
   {
@@ -25,7 +25,7 @@ const users = [
     username: 'xiaoli',
     password: '123456',
     post: 'CFO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar4.jpg',
+    avatar: '/static/img/layouts/layout/avatar4.jpg',
     type: 1
   },
   {
@@ -34,7 +34,7 @@ const users = [
     username: 'xiaodai',
     password: '123456',
     post: '项目经理',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar2.jpg',
+    avatar: '/static/img/layouts/layout/avatar2.jpg',
     type: 1
   },
   {
@@ -43,7 +43,7 @@ const users = [
     username: 'xiaoming',
     password: '123456',
     post: 'CEO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar3.jpg',
+    avatar: '/static/img/layouts/layout/avatar3.jpg',
     type: 2
   },
   {
@@ -52,7 +52,7 @@ const users = [
     username: 'xiaojuhua',
     password: '123456',
     post: 'CTO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar1.jpg',
+    avatar: '/static/img/layouts/layout/avatar1.jpg',
     type: 2
   },
   {
@@ -61,7 +61,7 @@ const users = [
     username: 'xiaohua',
     password: '123456',
     post: 'CFO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar4.jpg',
+    avatar: '/static/img/layouts/layout/avatar4.jpg',
     type: 2
   },
   {
@@ -70,7 +70,7 @@ const users = [
     username: 'hanmei',
     password: '123456',
     post: '项目经理',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar2.jpg',
+    avatar: '/static/img/layouts/layout/avatar2.jpg',
     type: 2
   },
   {
@@ -79,7 +79,7 @@ const users = [
     username: 'peipei',
     password: '123456',
     post: 'CEO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar3.jpg',
+    avatar: '/static/img/layouts/layout/avatar3.jpg',
     type: 2
   },
   {
@@ -88,7 +88,7 @@ const users = [
     username: 'laowang',
     password: '123456',
     post: 'CTO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar1.jpg',
+    avatar: '/static/img/layouts/layout/avatar1.jpg',
     type: 2
   },
   {
@@ -97,7 +97,7 @@ const users = [
     username: 'laoli',
     password: '123456',
     post: 'CFO',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar4.jpg',
+    avatar: '/static/img/layouts/layout/avatar4.jpg',
     type: 2
   },
   {
@@ -106,7 +106,7 @@ const users = [
     username: 'laodai',
     password: '123456',
     post: '项目经理',
-    avatar: 'http://zdyonline.com/vue-metronic/img/layouts/layout/avatar2.jpg',
+    avatar: '/static/img/layouts/layout/avatar2.jpg',
     type: 2
   }
 ]

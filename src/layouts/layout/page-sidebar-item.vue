@@ -4,12 +4,12 @@
   </li>
   <li class="nav-item" v-else>
     <router-link :to="model.path" class="nav-link" :class="{'nav-toggle':isFolder}" v-if="model.path" @click.native="sidebarMenuItemClick">
-      <i class="icon-folder"></i>
+      <i :class="'icon-' + model.icon"></i>
       <span class="title">{{model.title}}</span>
       <span class="arrow" v-if="isFolder"></span>
     </router-link>
     <a href="javascript:;" class="nav-link" :class="{'nav-toggle':isFolder}" v-else>
-      <i class="icon-folder"></i>
+      <i :class="'icon-' + model.icon"></i>
       <span class="title">{{model.title}}</span>
       <span class="arrow" v-if="isFolder"></span>
     </a>

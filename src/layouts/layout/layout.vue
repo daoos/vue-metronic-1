@@ -7,7 +7,7 @@
         <div class="page-header-inner ">
           <!-- BEGIN LOGO -->
           <div class="page-logo">
-            <a href="index.html">
+            <a >
               <img :src="logo" alt="logo" class="logo-default" /> </a>
             <div class="menu-toggler sidebar-toggler" @click="isShowSidebar = !isShowSidebar">
               <span></span>
@@ -22,11 +22,11 @@
           <!-- BEGIN TOP NAVIGATION MENU -->
           <page-top-menu>
             <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-            <li class="dropdown dropdown-quick-sidebar-toggler"  @click="isQuickSidebarShow = !isQuickSidebarShow">
-              <a href="javascript:;" class="dropdown-toggle">
-                <i class="icon-logout"></i>
-              </a>
-            </li>
+            <!--<li class="dropdown dropdown-quick-sidebar-toggler"  @click="isQuickSidebarShow = !isQuickSidebarShow">-->
+              <!--<a href="javascript:;" class="dropdown-toggle">-->
+                <!--<i class="icon-logout"></i>-->
+              <!--</a>-->
+            <!--</li>-->
             <!-- END QUICK SIDEBAR TOGGLER -->
           </page-top-menu>
           <!-- END TOP NAVIGATION MENU -->
@@ -52,9 +52,7 @@
           <div class="page-content">
             <!-- BEGIN PAGE HEADER-->
             <!-- BEGIN THEME PANEL -->
-            <!--
-              <theme-panel></theme-panel>
-            -->
+              <!--<theme-panel></theme-panel>-->
             <!-- END THEME PANEL -->
             <page-bar></page-bar>
             <!-- BEGIN PAGE TITLE-->
@@ -69,12 +67,12 @@
         </div>
         <!-- END CONTENT -->
         <!-- BEGIN QUICK SIDEBAR -->
-        <a href="javascript:;" class="page-quick-sidebar-toggler" @click="isQuickSidebarShow = false">
-          <i class="icon-login"></i>
-        </a>
-        <div class="page-quick-sidebar-wrapper" v-click-outside="() => isQuickSidebarShow = false">
-          <page-quick-sidebar></page-quick-sidebar>
-        </div>
+        <!--<a href="javascript:;" class="page-quick-sidebar-toggler" @click="isQuickSidebarShow = false">-->
+          <!--<i class="icon-login"></i>-->
+        <!--</a>-->
+        <!--<div class="page-quick-sidebar-wrapper" v-click-outside="() => isQuickSidebarShow = false">-->
+          <!--<page-quick-sidebar></page-quick-sidebar>-->
+        <!--</div>-->
         <!-- END QUICK SIDEBAR -->
       </div>
       <!-- END CONTAINER -->
@@ -88,7 +86,7 @@
       </div>
       <!-- END FOOTER -->
     </div>
-    <quick-nav></quick-nav>
+    <!--<quick-nav></quick-nav>-->
     <page-loading :show="isPageLoading"></page-loading>
   </div>
 </template>
@@ -103,11 +101,11 @@
   import PageSidebarMenu from './page-sidebar-menu'
   import PageBar from './page-bar'
   import PageTitle from './page-title'
-  import PageQuickSidebar from './page-quick-sidebar'
+//  import PageQuickSidebar from './page-quick-sidebar'
   import PageTopMenu from './page-top-menu'
-  import ThemePanel from '../theme-panel'
+//  import ThemePanel from '../theme-panel'
   import GoTop from '../go-top'
-  import QuickNav from '../quick-nav'
+//  import QuickNav from '../quick-nav'
 
   export default{
     data () {
@@ -169,11 +167,11 @@
       PageSidebarMenu,
       PageBar,
       PageTitle,
-      PageQuickSidebar,
+//      PageQuickSidebar,
       PageTopMenu,
-      QuickNav,
-      GoTop,
-      ThemePanel
+//      QuickNav,
+      GoTop
+//      ThemePanel
     }
   }
 </script>
